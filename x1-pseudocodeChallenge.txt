@@ -1,0 +1,63 @@
+﻿
+1. ΣF = m * a
+
+STORE "mass" with any value
+STORE "acceleration" with any value
+STORE "ΣForce" without any value
+
+CALCULATE "mass" times "acceleration"
+STORE result in "ΣForce"
+
+DISPLAY "ΣForce"
+
+
+2. Leap Year
+
+IF "year mod 4 NOT equal to 0"
+	DISPLAY common year
+
+ELSE IF "y mod 400 equals to 0" 
+	DISPLAY "leap year"
+
+ELSE IF "y mod 100 equals 0" 	
+	DISPLAY "common year"
+
+ELSE DISPLAY "leap year"
+
+
+3. 
+STORE "sisa pakaian" with any number
+STORE "jumlah pakaian dalam mesin cuci" with 0
+
+WHILE "sisa pakaian" > 0
+	DO add 1 to "jumlah pakaian dalam mesin cuci"
+	STORE calculation result in "jumlah pakaian dalam mesin cuci"
+
+	DO minus 1 to "sisa pakaian"
+	STORE calculation result in "sisa pakaian"	
+
+	IF "sisa pakaian" is equal to 0,
+		DISPLAY "jumlah pakaian dalam mesin cuci"
+
+
+
+4.
+STORE "sisa murid" to 40 (or any number)
+STORE "murid ke" to 0
+
+STORE "kuku panjang" without any value.
+
+
+
+WHILE "sisa murid" > 1
+	DO add 1 to "murid ke"
+	STORE calculation result to "murid ke"
+
+	IF "murid ke" > 0,
+	CHECK "kuku"
+		IF "kuku panjang" equals to "true"
+			THEN DO "beri hukuman"
+		ELSE DO "beri pujian"
+
+	DO minus 1 to "sisa murid"
+	STORE calculation result to "sisa murid" 
