@@ -12,11 +12,9 @@ var seventh = 'it!';
 
 console.log(word + ' ' + second + ' '+ third + ' '+ fourth + ' '+ fifth + ' '+ sixth + ' '+ seventh);
 
-//linebreak
-console.log(' ')
 
 //2. Index Accessing - 1 by 1
-console.log ('2 Index Accessing - 1 by 1');
+console.log ('\n 2 Index Accessing - 1 by 1');
 
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord = word[0] + word[1] + word[2];
@@ -31,11 +29,9 @@ console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
-//linebreak
-console.log(' ')
 
 //3. Breaking Sentence (again) using Substring
-console.log ('3. Breaking Sentece (again) using Substring');
+console.log ('\n 3. Breaking Sentece (again) using Substring');
 
 var word3 = 'wow JavaScript is so cool';
 var exampleFirstWord3 = word3.substring(0, 3);
@@ -50,11 +46,9 @@ console.log('Third Word: ' + thirdWord3);
 console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
-//linebreak
-console.log(' ')
 
 //4. Breaking Sentence (yet again) and Counth Each Length
-console.log ('4. Breaking Sentence (yet again) and Count Each Length');
+console.log ('\n 4. Breaking Sentence (yet again) and Count Each Length');
 
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word4.substring(0, 3);

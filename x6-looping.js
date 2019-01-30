@@ -27,11 +27,9 @@ while (while2) {
     }
 }
 
-//break
-console.log(' ');
 
 //2. Melakukan Looping menggunakan For
-console.log('2. Melakukan Looping Menggunakan For')
+console.log('\n 2. Melakukan Looping Menggunakan For')
 
 var for1;
 console.log('LOOPING PERTAMA')
@@ -45,16 +43,13 @@ for (for2 = 20; for2 > 0; for2 --) {
   console.log(for2 + ' - I will become fullstack developer')
 }
 
-//break
-console.log(' ')
-
 
 //3. Angka Ganjil dan Genap
-console.log('3. Angka Ganjil dan Genap')
+console.log('\n 3. Angka Ganjil dan Genap')
 
 
 // ganjil genap; increment 1
-console.log('Ganjil dan Genap; increment 1')
+console.log('\n Ganjil dan Genap; increment 1')
 var counter3 = 1;
 for (counter3 = 1; counter3 < 101; counter3++) {
   if (counter3%2 === 0) {
@@ -68,7 +63,7 @@ for (counter3 = 1; counter3 < 101; counter3++) {
 console.log(' ')
 
 //increment2; kelipatan 3
-console.log('Increment 2; kelipatan 3')
+console.log('\n Increment 2; kelipatan 3')
 var counter3 = 1;
 for (counter3 = 1; counter3 < 101; counter3+= 2) {
   if (counter3%3 === 0) {
@@ -80,7 +75,7 @@ for (counter3 = 1; counter3 < 101; counter3+= 2) {
 console.log(' ')
 
 //increment 5; kelipatan 6
-console.log('Increment 5; kelipatan 6')
+console.log('\n Increment 5; kelipatan 6')
 var counter3 = 1;
 for (counter3 = 1; counter3 < 101; counter3+= 5) {
   if (counter3%6 === 0) {
@@ -92,7 +87,7 @@ for (counter3 = 1; counter3 < 101; counter3+= 5) {
 console.log(' ')
 
 //increment 9; kelipatan 10
-console.log('increment 9; kelipatan 10')
+console.log('\n increment 9; kelipatan 10')
 var counter3 = 1;
 for (counter3 = 1; counter3 < 101; counter3+= 9) {
   if (counter3%10 === 0) {
