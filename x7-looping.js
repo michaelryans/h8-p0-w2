@@ -18,7 +18,7 @@ for (i = 0; i < rows2; i++) {
       star2 = star2.concat('*');
   } 
   console.log(star2);
-  star = ''
+  star2 = ''
 }
  
 console.log("\n 3. Menyusun Barisan Tangga Bintang dengan Nested Looping")
