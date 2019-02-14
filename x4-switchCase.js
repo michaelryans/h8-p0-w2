@@ -1,8 +1,16 @@
 
-var tanggal = 30; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-var bulan = 12; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-var tahun = 2019; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+var tanggal = 32; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan = 0; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun = 0; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
+
+if (tanggal < 1 || tanggal > 31) {
+  tanggal = '(input tanggal belum sesuai)'
+}
+
+if (tahun < 1900 || tahun > 2200) {
+  tahun = '(input tahun masih belum sesuai)'
+}
 
 switch (bulan) {
     case 1: var bulan = 'Januari'
